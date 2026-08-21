@@ -4,14 +4,14 @@ Minimal starter template to use if SSR is not needed.
 
 It includes:
 
-- Typescript v7*
+- Typescript v7
 - Vite v8
-- React (React Compiler)
+- React (React Compiler*)
 - Oxlint
 - Oxfmt
 
-(\* We use unreleased versions of TypeScript to take advantage of the immense performance improvements. If a
-problem arises, you can switch to the latest stable versions by changing the dependencies in `package.json`.)
+(\* We use the newly released `oxc-transform-react` package for react compiler support so we dont have to use the babel 
+version of it.)
 
 ## Getting started
 
