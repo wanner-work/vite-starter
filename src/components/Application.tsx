@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import ChildComponent from '#/components/ChildComponent.tsx'
+import ChildComponent from '@/components/ChildComponent'
 
 export default function Application() {
   const [count, setCount] = useState(0)
